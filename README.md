@@ -66,3 +66,48 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+# Steps to push to github repository (gitbash)
+
+amanu@Amano MINGW64 ~ (master)
+
+## \$ cd expense-tracker-react
+
+amanu@Amano MINGW64 ~/expense-tracker-react (master)
+
+# \$ git init
+
+Reinitialized existing Git repository in C:/Users/amanu/expense-tracker-react/.git/
+
+amanu@Amano MINGW64 ~/expense-tracker-react (master)
+
+# \$ git add .
+
+amanu@Amano MINGW64 ~/expense-tracker-react (master)
+
+# \$ git commit -m "testing"
+
+On branch master
+nothing to commit, working tree clean
+
+amanu@Amano MINGW64 ~/expense-tracker-react (master)
+
+# \$ git remote add github https://github.com/amanhami/expense-tracker-react.git
+
+# git remote -v
+
+amanu@Amano MINGW64 ~/expense-tracker-react (master)
+
+# \$ git push -f origin or github master
+
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (26/26), 200.14 KiB | 5.72 MiB/s, done.
+Total 26 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amanhami/expense-tracker-react.git
+
+- [new branch] master -> master
+
+amanu@Amano MINGW64 ~/expense-tracker-react (master)
