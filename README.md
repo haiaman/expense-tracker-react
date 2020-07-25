@@ -85,7 +85,7 @@ amanu@Amano MINGW64 ~/expense-tracker-react (master)
 
 amanu@Amano MINGW64 ~/expense-tracker-react (master)
 
-# \$ git commit -m "testing"
+# \$ git commit -m "Testing"
 
 On branch master
 nothing to commit, working tree clean
@@ -111,3 +111,28 @@ To https://github.com/amanhami/expense-tracker-react.git
 - [new branch] master -> master
 
 amanu@Amano MINGW64 ~/expense-tracker-react (master)
+
+amanu@Amano MINGW64 ~/expense-tracker-react (master)
+# $ git remote -v
+github  https://github.com/amanhami/expense-tracker-react.git (fetch)
+github  https://github.com/amanhami/expense-tracker-react.git (push)
+origin  https://github.com/amanhami/expense-tracker-react.git (fetch)
+origin  https://github.com/amanhami/expense-tracker-react.git (push)
+
+amanu@Amano MINGW64 ~/expense-tracker-react (master)
+# $ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+amanu@Amano MINGW64 ~/expense-tracker-react (master)
+# $ git commit -m "second test"
+[master 6b4b1b6] second test
+ 1 file changed, 45 insertions(+)
+
+amanu@Amano MINGW64 ~/expense-tracker-react (master)
+
+
+
+amanu@Amano MINGW64 ~/expense-tracker-react (master)
+# $ git push --set-upstream origin master
+
